@@ -1,0 +1,11 @@
+model = "gpt-35-turbo"
+
+openai_api_base = "https://api.umgpt.umich.edu/azure-openai-api"
+
+openai_api_type = "azure"
+
+OPENAI_API_KEY = {KEY}
+
+OPENAI_organization = {KEY}
+
+API_VERSION = "2023-05-15"
