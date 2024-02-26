@@ -1,0 +1,1 @@
+# gandf_ArticleEncoding
