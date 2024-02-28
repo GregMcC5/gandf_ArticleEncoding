@@ -27,11 +27,11 @@ A more robust description of this project is available [here](https://docs.googl
 
 - *gandf_data/ajq0745.0001.004.xml* - This is the item xml file which was used as the primary example for this pilot project. This article level information from *api_outputs.json* were spliced into this file.
 
-- *splice_xml.py* - This script takes an identified item ID and restructures it with the article-level data from *api_outputs.json*. First it developes a list of <DIV> tags, one for each article from OpenAI outputs with article title, author, and page number information. It then loops through this list and  appends the existing <P> (page, containing OCR) tags for each page associated with each article under its corresponding <DIV> tag. 
+- *splice_xml.py* - This script takes an identified item ID and restructures it with the article-level data from *api_outputs.json*. First it develops a list of DIV tags, one for each article from OpenAI outputs with article title, author, and page number information. It then loops through this list and  appends the existing P (page, containing OCR) tags for each page associated with each article under its corresponding DIV tag. 
 
-    Another loop through this list of <DIV> tags occurs again, with the script trimming the OCR for instances in which the same page is featured for multiple articles (pages with multiple articles on them). This trimming occurs by checking for occurrences of the article title on the page, both with exact-string matching and fuzzy-matching.
+	Another loop through this list of DIV tags occurs again, with the script trimming the OCR for instances in which the same page is featured for multiple articles (pages with multiple articles on them). This trimming occurs by checking for occurrences of the article title on the page, both with exact-string matching and fuzzy-matching.
     
-    Some special handling of the Table of Contents and Front Matters occurs before the whole list of <DIV> tags is wrapped in a <BODY> tag and appended under the original item XML file's <TEXT> tag. The new file is then written as new_{item_id}.xml
+    Some special handling of the Table of Contents and Front Matters occurs before the whole list of <DIV> tags is wrapped in a BODY tag and appended under the original item XML file's TEXT tag. The new file is then written as new_{item_id}.xml
 
 
 ## Notes
