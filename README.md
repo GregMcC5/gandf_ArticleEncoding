@@ -31,7 +31,7 @@ A more robust description of this project is available [here](https://docs.googl
 
 	Another loop through this list of DIV tags occurs again, with the script trimming the OCR for instances in which the same page is featured for multiple articles (pages with multiple articles on them). This trimming occurs by checking for occurrences of the article title on the page, both with exact-string matching and fuzzy-matching.
     
-    Some special handling of the Table of Contents and Front Matters occurs before the whole list of <DIV> tags is wrapped in a BODY tag and appended under the original item XML file's TEXT tag. The new file is then written as new_{item_id}.xml
+    Some special handling of the Table of Contents and Front Matters occurs before the whole list of DIV tags is wrapped in a BODY tag and appended under the original item XML file's TEXT tag. The new file is then written as new_{item_id}.xml
 
 
 ## Notes
