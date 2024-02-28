@@ -12,7 +12,7 @@ This repository contains the scripts utilized by Gregory McCollum and Jackson Hu
 
 Specifically, this project utilized U-M Libray's [Garden and Forest](https://quod.lib.umich.edu/g/gandf/) collection of horticulture and botany journals. This collection currently has no encoded information on the articles within the journals, only provided access to the journal's pages. This project attempted to use a large langugage model to extract article information from the OCR of the Tables of Content of the journals held in this collection, and allow users to browse specific articles in each journal.
 
-A more robust description of this project is available [here](https://docs.google.com/document/d/1EnHUxZ7e-XrN34WkSmk2p6Y8WQoveXNg0EuSK6sk9eM/edit?usp=sharing).
+A more robust description of this project is available [here](https://docs.google.com/document/d/1EnHUxZ7e-XrN34WkSmk2p6Y8WQoveXNg0EuSK6sk9eM/edit?usp=sharing). UM Library employees can access further documentation [here](https://mlit.atlassian.net/l/cp/1vi2UDmN).
 
 
 ## Inventory
@@ -38,6 +38,6 @@ A more robust description of this project is available [here](https://docs.googl
 
 This workflow was constructed with a single item (ajq0745.0001.004) in mind. Multiple issues arose when attempting to apply the *splice_xml.py* script to other items whose article-level information was extracted. 
 
-More information on the this project can be found here.
+More information on the this project can be found [here](https://mlit.atlassian.net/l/cp/1vi2UDmN).
 
 Gregory McCollum can also be contacted at gregmcc@uchicago.edu.
